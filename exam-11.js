@@ -1,4 +1,4 @@
-/* Pyton 
+/* Python 
 def는 function을 의미
 print는 console.log()를 의미
 
@@ -21,7 +21,7 @@ for item in data:
     if(Array.isArray(item)){ //배열인지 확인하기위해 isArray를 사용해야한다.
       output+=flatten(item); //이게 무슨 뜻일까?
     }else{
-      output.push(item);
+      output.append(item); //수정
     }
     return output;
   }
