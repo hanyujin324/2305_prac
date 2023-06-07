@@ -54,4 +54,4 @@ for node in ['F1', 'F3']:
 if fastest_path == float('inf'):
     print("D1로 가는 경로가 없습니다.")
 else:
-    print(f"D1로 가는 가장 빠른 방법의 최단 거리: {fastest_path:.1f}")
+    print(f"D1로 가는 가장 빠른 방법의 최단 거리 : {fastest_path:.1f}")
